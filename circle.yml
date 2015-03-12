@@ -1,0 +1,15 @@
+dependencies:
+  override:
+    - gem install jekyll
+    - sudo pip install awscli
+
+test:
+  override:
+    - echo 0
+
+deployment:
+  aws:
+    branch: master
+    commands:
+      - jekyll build
+      - aws s3 sync _site s3://www.bastabrown.org/

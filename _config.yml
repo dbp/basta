@@ -1,2 +1,4 @@
 collections:
 - news
+
+exclude: [ circle.yml ]

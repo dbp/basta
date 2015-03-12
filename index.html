@@ -140,32 +140,7 @@
     <div class="container startAnimation animated" data-animate="fadeInUp">
       <div class="row bloghomepage">
 
-          <div class="col-sm-6">
-        <!-- one row -->
-      <p>
-        As 400 students marched to protest Brown's handling of sexual assault on March 11, alumni and parents flooded the inboxes of administrators to express our solidarity. It's not too late to add your voice! You can email Brown officials by choosing from our three alumni templates. All can be easily modified for parents. Don't forget to fill in your CLASS at the top and NAME at the bottom.</p>
-          </div>
-          <div class="col-sm-6">
-<h5>
-  Here's how to choose a template:
-</h5>
-
-<p>
-  <a href="https://docs.google.com/document/d/1hdoM9RoyZdOPdiTUNkmrgsyBm8SD-Se5GNZoNagghcg/edit">
-    I want to withhold donations from Brown until they meet student demands.
-  </a>
-</p>
-<p>
-  <a href="https://docs.google.com/document/d/1EfO-221JU_spWu7LA4tTiOpOZkH6OmOZn0K16eo51lg/edit">
-    I want to withhold donations, without making specific demands.</a></p>
-<p>
-  <a href="https://docs.google.com/document/d/1aMPKdzEUClDXzFzs9zDvMwazHkV7M0o6g9YCrqE91H4/edit">
-I don't want to withhold donations, but want to express support for the students.</a></p>
-
-<p>
-  Email <a href="mailto:brown.basta@gmail.com">brown.basta@gmail.com</a> with any questions.
-</p>
-          </div>
+          {% include letter_writing.html %}
 
       </div>
       <!--
@@ -283,11 +258,7 @@ I don't want to withhold donations, but want to express support for the students
       <!-- col-sm-6 end -->
           <div class="col-sm-6">
             <h5><span>We've had enough.</span></h5>
-      <p>BASTA is a group of alumni committed to ending sexual assault at Brown. We have created a formalized network to communicate with students and maintain pressure on the administration. Our goal is to avoid the historical amnesia which forces student activsts at Brown to reinvent the wheel every four years when it comes to demanding change from the administration. We are committed to working in solidarity with students to demand improved resources for survivors and harsher sanctions against perpetrators.
-            </p>
-            <p>Brown can no longer get away with failing its students. Alumni are watching.
-            </p>
-
+            {% include about_basta.html %}
           </div>
       <!-- col-sm-6 end -->
         </div>
@@ -330,7 +301,7 @@ I don't want to withhold donations, but want to express support for the students
              <ul class="bottomlinks">
 
             <li><a href="#0">Home</a></li>
-            <!-- <li><a href="#1">Demands</a></li> -->
+            <li><a href="#1">Letter Campaign</a></li>
             <li><a href="#2">News</a></li>
             <li><a href="#3">About</a></li>
             <li><a href="#4">Contact</a></li>

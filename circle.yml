@@ -1,6 +1,6 @@
 dependencies:
   override:
-    - gem install jekyll
+    - gem install jekyll:2.5.2
     - sudo pip install awscli
 
 test:

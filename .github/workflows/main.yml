@@ -14,9 +14,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    
-    - name: Setup gems
-      run: gem install git
 
     - name: Build
       uses: jerryjvl/jekyll-build-action@v1
